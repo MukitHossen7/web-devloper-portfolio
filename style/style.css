@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/* Common CSS style */
 .open-sans{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -7,7 +8,7 @@
     font-variation-settings:
       "wdth" 100;
 }
-/* Primary CSS */
+
 
 .primary-text{
     color: #FD6E0A;
@@ -24,13 +25,16 @@
     font-weight: 700;
     border: none;
 }
+/* Common CSS style */
+
+
 /* Navegation Bar CSS */
 
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 120px;
 }
 .nav .nav-title{
     font-size: 45px;
@@ -47,5 +51,37 @@
 .nav li a{
     text-decoration: none;
     font-size: 20px;
+    font-weight: 400;
+}
+
+/* Banner CSS Style */
+.banner{
+    display: flex;
+    margin: 0px 120px;
+}
+.banner-text{
+    width: 585px;
+}
+.banner-img{
+    width: 584px;
+}
+
+.banner-img img{
+width: 100%;
+}
+
+.banner-text .banner-intro{
+    font-weight: 600;
+    font-size: 37px;
+}
+.banner-text .banner-tital{
+   font-weight:700 ;
+   font-size:75px;
+   color: rgb(24, 24, 24)
+
+}
+.banner-text .banner-description{
+    color: rgb(117, 117, 117);
+    font-size: 14px;
     font-weight: 400;
 }
