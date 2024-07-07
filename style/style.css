@@ -298,3 +298,66 @@ margin-top: 10px;
 .resume-area .resume-btn{
     text-align: center;
 }
+
+/* Footer Section CSS */
+
+.footer-area{
+    display: flex;
+    gap: 117px;
+}
+.footer-section{
+    background: rgb(255, 248, 243);
+}
+.footer-area{
+    padding: 130px 230px;
+}
+.footer-text-collom .foooter-text-title{
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align:left;
+margin-bottom: 0;
+}
+.footer-text-collom .footer-description{
+    color: rgb(71, 71, 71);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+.footer-text-collom .footer-icon{
+    margin: 25px 0;
+}
+.iconPad{
+    padding-right: 20px;
+}
+.footer-area .footer-form-collom .form-area{
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 0;
+}
+.footer-form-collom input[type="text"], .footer-form-collom input[type="email"], .footer-form-collom textarea{
+    display: block;
+    width: 100%;
+    padding: 18px 0 18px 30px ;
+    margin-top: 28px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border: none;
+
+}
+.footer-form-collom .form-btn{
+     color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+border-radius: 5px;
+background: rgb(253, 110, 10);
+border: none;
+padding: 18px 39px;
+margin-top: 24px;
+}
