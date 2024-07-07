@@ -118,3 +118,11 @@ width: 100%;
 .banner-text .bannerBtn{
     margin-top: 30px;
 }
+
+/* Main About Section Style */
+
+.about-section{
+    width: 1140px;
+    background-color: aqua;
+    margin: 0 auto;
+}
