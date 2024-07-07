@@ -19,7 +19,7 @@
 .primary-btn{
     border-radius: 5px;
     background: rgb(253, 110, 10);
-    padding: 10px 17px;
+    padding: 12px 19px;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
@@ -29,12 +29,18 @@
 
 
 /* Navegation Bar CSS */
-
+.main-header{
+    background-image: url("../images/developer.png"),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left,right bottom;
+    background-size: 80px ,800px;
+   
+}
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 120px;
+    margin: 0px 120px 0 80px;
 }
 .nav .nav-title{
     font-size: 45px;
@@ -57,13 +63,20 @@
 /* Banner CSS Style */
 .banner{
     display: flex;
-    margin: 0px 120px;
+    margin: 20px 120px 0px 80px;
+    justify-content: space-between;
+    
+
+  
 }
 .banner-text{
     width: 585px;
+  margin-right: 80px;
 }
 .banner-img{
     width: 584px;
+    margin-left: 80px;
+   
 }
 
 .banner-img img{
@@ -73,15 +86,35 @@ width: 100%;
 .banner-text .banner-intro{
     font-weight: 600;
     font-size: 37px;
+    margin: 0px 0px 0px 0px;
 }
 .banner-text .banner-tital{
    font-weight:700 ;
    font-size:75px;
-   color: rgb(24, 24, 24)
+   color: rgb(24, 24, 24);
+   margin: 0;
+   padding: 15px 0;
+
 
 }
 .banner-text .banner-description{
     color: rgb(117, 117, 117);
     font-size: 14px;
     font-weight: 400;
+}
+.banner-text .contactBtn{
+    color: rgb(253, 110, 10);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 19px;
+    border: 1px solid rgb(253, 110, 10);
+    background-color: rgb(255, 255, 255);
+}
+.banner-text .cvBtn{
+    margin-right: 20px;
+}
+.banner-text .bannerBtn{
+    margin-top: 30px;
 }
